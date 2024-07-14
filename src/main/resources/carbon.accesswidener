@@ -1,0 +1,17 @@
+accessWidener v2 named
+
+accessible class net/minecraft/client/renderer/GlStateManager$BooleanState
+accessible field net/minecraft/client/renderer/GlStateManager$BooleanState currentState Z
+accessible class net/minecraft/client/renderer/GlStateManager$FogState
+accessible field net/minecraft/client/renderer/GlStateManager fogState Lnet/minecraft/client/renderer/GlStateManager$FogState;
+
+accessible field net/minecraft/client/renderer/EntityRenderer fogColorRed F
+accessible field net/minecraft/client/renderer/EntityRenderer fogColorGreen F
+accessible field net/minecraft/client/renderer/EntityRenderer fogColorBlue F
+
+accessible field net/minecraft/client/renderer/entity/RenderManager entityRenderMap Ljava/util/Map;
+
+accessible field net/minecraft/client/renderer/RenderGlobal theWorld Lnet/minecraft/client/multiplayer/WorldClient;
+
+accessible class net/minecraft/world/biome/BiomeColorHelper$ColorResolver
+accessible method net/minecraft/world/biome/BiomeColorHelper$ColorResolver getColorAtPos (Lnet/minecraft/world/biome/BiomeGenBase;Lnet/minecraft/util/BlockPos;)I

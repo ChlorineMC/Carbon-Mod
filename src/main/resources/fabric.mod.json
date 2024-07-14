@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "carbon",
+  "version": "1.0.0",
+  "name": "Carbon",
+  "description": "An advanced optimization mod for 1.8.9",
+  "environment": "client",
+  "accessWidener": "carbon.accesswidener",
+  "entrypoints": {
+    "client": [
+      "net.chlorinemc.carbon.core.CarbonClientMod"
+    ]
+  },
+  "mixins": [
+    "sodium.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.8.9",
+    "java": ">=17"
+  }
+}

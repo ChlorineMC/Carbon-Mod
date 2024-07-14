@@ -1,0 +1,45 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.jellysquid.mods.sodium.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "core.frustum.MixinFrustum",
+    "core.pipeline.MixinBakedQuad",
+    "core.pipeline.MixinVertexFormat",
+    "core.pipeline.MixinWorldRenderer",
+    "features.block.MixinBlockModelRenderer",
+    "features.block.MixinEntityRenderer",
+    "features.buffer_builder.fast_advance.MixinVertexFormat",
+    "features.buffer_builder.fast_sort.MixinWorldRenderer",
+    "features.chunk_rendering.AccessorActiveRenderInfo",
+    "features.chunk_rendering.AccessorBlockFluidRenderer",
+    "features.chunk_rendering.AccessorBlockRenderDispatcher",
+    "features.chunk_rendering.MixinBiomeColorHelper",
+    "features.chunk_rendering.MixinChunkProviderClient",
+    "features.chunk_rendering.MixinChunkRenderDispatcher",
+    "features.chunk_rendering.MixinRenderGlobal",
+    "features.chunk_rendering.MixinWorldRenderer",
+    "features.debug.MixinGuiOverlayDebug",
+    "features.entity.smooth_lighting.MixinPaintingEntityRenderer",
+    "features.entity.smooth_lighting.MixinRenderManager",
+    "features.gui.MixinGuiOverlayDebug",
+    "features.options.MixinEntityRenderer",
+    "features.options.MixinGameSettings",
+    "features.options.MixinGuiIngame",
+    "features.options.MixinGuiOptions",
+    "features.options.MixinMinecraft",
+    "features.sky.MixinRenderGlobal",
+    "features.world_ticking.MixinWorldClient"
+  ],
+  "mixins": [
+    "core.MixinChatComponentTranslation",
+    "core.MixinCrashReportSection",
+    "core.MixinEnumFacing",
+    "features.fast_biome_colors.MixinBlock",
+    "features.render_layer.leaves.MixinBlockLeaves"
+  ]
+}
